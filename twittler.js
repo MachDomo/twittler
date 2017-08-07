@@ -33,7 +33,7 @@ var display = {
     var index = streams.home.length - 1;
     while(index >= 0){
       var tweet = streams.home[index];
-      var $tweet = $('<div>' + '['+ tweet.created_at + '] ' + '@' + '<a href=# class="filterByUser">' + tweet.user + '</a>' + ': ' + tweet.message + '</div>' );
+      var $tweet = $('<div class="tweet">' + '['+ tweet.created_at + '] ' + '@' + '<a href=# class="filterByUser">' + tweet.user + '</a>' + ': ' + tweet.message + '</div>' );
       
       $tweet.appendTo($body);
       index -= 1;
@@ -46,7 +46,7 @@ var display = {
     var index = streams.users[user].length - 1;
     while(index >= 0){
       var tweet = streams.users[user][index];
-      var $tweet = $('<div>' + '['+ tweet.created_at + '] ' + '@' + '<a href=# class="filterByUser">' + tweet.user + '</a>' + ': ' + tweet.message + '</div>');
+      var $tweet = $('<div class="tweet">' + '['+ tweet.created_at + '] ' + '@' + '<a href=# class="filterByUser">' + tweet.user + '</a>' + ': ' + tweet.message + '</div>');
       $tweet.appendTo($body);
       index -= 1;
     }
