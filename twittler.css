@@ -8,7 +8,7 @@ Logo
   font-size: 36px;
   font-weight: 75;
   font-family: 'Raleway', sans-serif;
-  padding: 0px 30px;
+  padding: 0px 0px;
   text-align: center;
   display: inline-block;
 
@@ -38,6 +38,8 @@ Primary Blue: #1DA1F2
 Black: HEX #14171A;
 Dark Grey: HEX #657786
 Light Grey: HEX #AAB8C2
+Extra Light Grey: #F5F8FA
+White: HEX #FFFFFF;
 */ 
 
 
@@ -50,13 +52,17 @@ Update Button and Tweet interface
 .tweet {
   border: 1px solid #648880;
   border-radius: 5px;
-  padding: 10px 30px;
+  padding: 10px 0;
   font-family: 'Raleway', sans-serif;
+
 }
 
 .update-button {
-  width: 100%;
-  padding: 10px;
+  background-color: #AAB8C2;
+  padding: 10px 50px;
+  text-align: center;
+  margin: 0 auto;
+  color: #14171A;
 }
 
 /* Sizing */
@@ -64,6 +70,7 @@ Update Button and Tweet interface
   width: 960px;
   margin: 0 auto;
 }
+
 
 /* 
    =============================================
@@ -82,3 +89,5 @@ Update Button and Tweet interface
   clear: both;
   *zoom: 1;
 }
+
+
