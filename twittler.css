@@ -1,8 +1,31 @@
+/* 
+==========================
+Logo
+==========================
+*/
+.primary-header {
+  background-color: #1DA1F2;
+  font-size: 36px;
+  font-weight: 75;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Twitter color scheme: 
+Primary Blue: #1DA1F2 
+Black: HEX #14171A;
+Dark Grey: HEX #657786
+Light Grey: HEX #AAB8C2
+*/ 
+
+
 .tweet {
   border: 1px solid #648880;
   border-radius: 5px;
   padding: 10px 30px;
+  font-family: 'Raleway', sans-serif;
 }
 h1 {
   text-align: center;
+  color: #fff;
 }
+
