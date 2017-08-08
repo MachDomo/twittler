@@ -72,6 +72,7 @@ Update Button and Tweet interface
   text-align: center;
   font-size: large;
   margin: 0 auto;
+  
 
 }
 .post-time {
@@ -81,6 +82,7 @@ Update Button and Tweet interface
 }
 .filterByUser {
   font-size: x-large;
+  font-weight: bold;
 
 }
 /* Sizing */
