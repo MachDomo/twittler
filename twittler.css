@@ -8,6 +8,29 @@ Logo
   font-size: 36px;
   font-weight: 75;
   font-family: 'Raleway', sans-serif;
+  padding: 0px 30px;
+  text-align: center;
+  display: inline-block;
+
+
+}
+.primary-header h1 {
+  color: #fff;
+}
+.twitter-logo {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  width: 300px;
+  float: left;
+}
+.twitter-title {
+  display: inline-block;
+  text-align: center;
+  vertical-align: center;
+  padding-right: 320px;
+  padding-top: 10px;
 }
 
 /* Twitter color scheme: 
@@ -18,14 +41,44 @@ Light Grey: HEX #AAB8C2
 */ 
 
 
+/* 
+=================================
+Update Button and Tweet interface
+=================================
+*/
+
 .tweet {
   border: 1px solid #648880;
   border-radius: 5px;
   padding: 10px 30px;
   font-family: 'Raleway', sans-serif;
 }
-h1 {
-  text-align: center;
-  color: #fff;
+
+.update-button {
+  width: 100%;
+  padding: 10px;
 }
 
+/* Sizing */
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* 
+   =============================================
+   Clearfix
+   =============================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
