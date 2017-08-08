@@ -52,7 +52,7 @@ Update Button and Tweet interface
 .tweet {
   border: 2px solid #1DA1F2;
   border-radius: 5px;
-  padding: 10px 0;
+  padding: 0 0;
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
   color: #14171A;
@@ -62,35 +62,31 @@ Update Button and Tweet interface
 
 .update-button {
   background-color: #AAB8C2;
+  border-color: #FFFFFF;
   padding: 10px 50px;
   text-align: center;
   margin: 0 auto;
   color: #14171A;
 }
+.tweet-message {
+  text-align: center;
+  font-size: large;
+  margin: 0 auto;
 
+}
+.post-time {
+  font-size: small;
+  font-style: italic;
+  text-align: right;
+}
+.filterByUser {
+  font-size: x-large;
+
+}
 /* Sizing */
 .container {
   width: 960px;
   margin: 0 auto;
-}
-
-
-/* 
-   =============================================
-   Clearfix
-   =============================================
-*/
-.group:before,
-.group:after {
-  content: "";
-  display: table;
-}
-.group:after {
-  clear: both;
-}
-.group {
-  clear: both;
-  *zoom: 1;
 }
 
 

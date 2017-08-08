@@ -33,7 +33,7 @@ var display = {
     var index = streams.home.length - 1;
     while(index >= 0){
       var tweet = streams.home[index];
-      var $tweet = $('<br>' + '<div class="tweet container">'  + '@' +  '<a href=# class="filterByUser"><strong>' + tweet.user + '</strong></a>' + ': ' + tweet.message + '<br>' + '<i>['+ tweet.created_at + ']</i>' + '</div>' );
+      var $tweet = $('<br>' + '<div class="tweet container">'  + '@' +  '<a href=# class="filterByUser">' + tweet.user + '</a>' + ': ' + '<p class="tweet-message">' + tweet.message + '</p>' + '<br>' + '<p class="post-time">['+ tweet.created_at + ']</p>' + '</div>' );
       
       $tweet.appendTo($body);
       index -= 1;
@@ -46,7 +46,7 @@ var display = {
     var index = streams.users[user].length - 1;
     while(index >= 0){
       var tweet = streams.users[user][index];
-      var $tweet = $('<br>' + '<div class="tweet container">' + '@' + '<a href=# class="filterByUser"><strong>' + tweet.user + '</strong></a>' + ': ' + tweet.message + '<br>' + '<i>['+ tweet.created_at + ']</i>' + '</div>');
+      var $tweet = $('<br>' + '<div class="tweet container">' + '@' + '<a href=# class="filterByUser">' + tweet.user + '</a>' + ': ' + '<p class="tweet-message">' + tweet.message + '</p>' + '<br>' + '<p class="post-time">['+ tweet.created_at + ']</p>' + '</div>' );
       $tweet.appendTo($body);
       index -= 1;
     }
